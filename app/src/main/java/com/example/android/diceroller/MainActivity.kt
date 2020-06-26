@@ -49,7 +49,7 @@ class MainActivity : AppCompatActivity() {
      * Click listener for the Roll button.
      */
     private fun rollDice() {
-        Toast.makeText(this, "DiceRoller by Lim Chun Yip", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "DiceRoller by Lim Chun Yip 18WMR12624", Toast.LENGTH_SHORT).show()
         val randomInt = (1..6).random()
         val randomInt2 = (1..6).random()
         val totalInt = randomInt + randomInt2
